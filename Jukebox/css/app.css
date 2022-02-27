@@ -1,0 +1,425 @@
+/*
+	OVERRIDES
+*/
+.navbar-default {
+	padding: 10px;
+	background: white;
+	margin-bottom: 10px;
+    
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+    padding-right: 0px;
+    padding-left: 70px;
+}
+
+.navbar-right {
+	padding-right:0px;
+}
+
+.navbar-brand {
+    float: left;
+    padding-top: 29px; 
+    padding-left: 60px;
+    padding-bottom: 10px;
+
+}
+
+
+.container-fluid {
+    padding-right: 60px;
+    padding-left: 0px;
+
+   
+}
+
+.btn.btn-light {
+    padding-top: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #ffffff;
+    background-color: #fff;
+}
+
+
+
+
+/* Jumbotron */ 
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    background-image: url(img/hero-photo.png);
+    background-position: center; 
+    background-size: cover;
+    padding: 240px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container-full-bg {
+    background-color: transparent;
+    border: 100px;
+}
+
+
+.container-special {
+    padding-right: 400px;
+    margin: 0px;
+    border: 10px;
+    height: auto;
+    width: auto;
+}
+ 
+
+h1 {
+ font-family: arial;
+ font-weight: bold;
+ font-size: 52px;
+ color: #ffffff;
+ margin: 0px;
+
+}
+
+p {
+    margin: 0px;
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 24px;
+    line-height: 30px;
+}
+
+
+
+.btn-lg {
+	font-size:20px;
+	width:300px ;
+	margin-top:20px;
+	display: inline-block;
+}
+
+
+h2 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 70px;
+    padding-bottom: 24px;
+    margin: 0px;
+}
+
+small {
+    font-family: arial;
+    font-size: 22px;
+    color: #959596;
+}
+  
+
+	
+h3 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+h4 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+li {
+    font-family: arial;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+/* GRID col-sm-4 ** --> */
+
+/* PRICING */
+
+
+.pricing-wrapper {
+    margin-top: 0px;
+}
+
+.pricing {
+    padding: 15px;
+    background-color: rgb(43,149,253);
+    border-radius: 5px;
+    min-width: 25%;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.pricing ul {
+    line-height: 2.5em;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pricing-plus {
+    background-color: rgb(78,101,236);
+    padding: 0px;
+}
+
+.pricing-premium {
+    background-color: rgb(122,48,211);
+     padding: 0px;
+}
+
+.pricing button {
+    font-weight: bold;
+    padding: 7px 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10000px;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.pricing button:hover {
+    background: white;
+    color: rgb(43,149,253);
+}
+
+.pricing-plus button:hover {
+    color: rgb(78,101,236);
+}
+
+.pricing-premium button:hover {
+    color: rgb(122,48,211);
+}
+
+
+.pricing-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.pricing-wrapper {
+    padding-top: 38px;
+    padding-bottom: 70px;
+}
+
+
+.bx-section {
+    color: rgb(43, 150, 253);
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 38px;
+    text-align: center;
+    margin: 0px;
+    border-top: 0px transparent;
+    border-bottom: 0px;
+}
+
+
+
+.col-sm-4 {
+    width: 33%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    margin-bottom: auto;
+    padding-bottom: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+
+}
+
+
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+    align-content: center;
+
+}
+
+
+.pricing {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center; 
+    margin-bottom: 0px;
+    min-width: 25%;
+    max-width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+
+
+
+
+.full-image-bg {
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    background-image: url(img/hero-photo.png);
+    background-size: cover;
+    padding-top: 250px;
+    padding-right: 175px;
+    padding-bottom: 250px;
+    padding-left: 175px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+/* Boxes */
+
+#boxes{
+    width: 33%;
+    float: none;
+     position: relative;
+    margin-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: auto;
+    padding-right: 177px;
+    padding-left: 177px;
+    display: block;
+}
+
+#boxes .box{
+    float: none;
+    text-align: center;
+    width:33%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#boxes .box img {
+    width:100px;
+}
+
+.features-container {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    text-align: center
+}
+
+.album-container {
+    width: 100%;
+    display: inline-block;
+    padding-left: 209px;
+    padding-right: 209px;
+}
+
+.col-md-4.col-sm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h5 {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+/* Album GAllery */
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.image {
+    padding: 32px;
+}
+
+/* Footer Social Icons */
+
+.container-footer  {
+    background-color: rgb(43,149,253);  
+    padding-left: 55px;
+    padding-right: 70px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-top: 38px;
+    
+}
+
+.box-social {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+#social-footer {
+    margin-right: auto;
+    margin-left: auto;
+    float: right; 
+    
+}
+
+
+.footer-brand {
+    display: inline-block;
+    padding-left: 15px;
+    
+    
+}
+
+
+/*
+	END OVERRIDES
+*/
+
