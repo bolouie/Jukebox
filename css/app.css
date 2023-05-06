@@ -1,0 +1,317 @@
+/* General styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #ffffff;
+    background-color: #fff;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+    align-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: arial;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar-default {
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+    padding-right: 0px;
+    padding-left: 70px;
+}
+
+.navbar-brand {
+    float: left;
+    padding-top: 29px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.navbar-right {
+    padding-right: 0px;
+}
+
+.container-fluid {
+    padding-right: 60px;
+    padding-left: 0px;
+}
+
+.btn.btn-light {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.section-size {
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    padding: 240px;
+    margin-bottom: 0px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    background-image: url(/img/hero-photo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 240px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.container-full-bg {
+    background-color: transparent;
+    border: 100px;
+}
+
+.jumbotron-text {
+    color: #ffffff;
+    /* Change this to your desired color */
+}
+
+
+.container-special {
+    padding-right: 400px;
+    margin: 0px;
+    border: 10px;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-size: 52px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 24px;
+    line-height: 30px;
+}
+
+.btn-lg {
+    font-size: 20px;
+    width: 300px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+h2 {
+    color: #2B95FD;
+    font-size: 36px;
+    padding-top: 70px;
+    padding-bottom: 24px;
+    margin: 0px;
+}
+
+small {
+    font-size: 22px;
+    color: #959596;
+}
+
+/* Refactored pricing section CSS */
+
+.pricing-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing {
+    padding: 15px;
+    border-radius: 5px;
+    min-width: 25%;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.pricing-basic {
+    background-image: url(/img/rect-plan1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-plus {
+    background-image: url(/img/rect-plan2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-premium {
+    background-image: url(/img/rect-plan3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing ul {
+    line-height: 2.5em;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pricing button {
+    font-weight: bold;
+    padding: 7px 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10000px;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.pricing button:hover {
+    background: white;
+    color: rgb(43, 149, 253);
+}
+
+.pricing-plus button:hover {
+    color: rgb(78, 101, 236);
+}
+
+.pricing-premium button:hover {
+    color: rgb(122, 48, 211);
+}
+
+/* Boxes */
+#boxes {
+    width: 33%;
+    float: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: auto;
+    padding-right: 177px;
+    padding-left: 177px;
+    display: block;
+}
+
+#boxes .box {
+    float: none;
+    text-align: center;
+    width: 33%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+.features {
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    min-width: 10%;
+    background-image: url(/img/about-photo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 240px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.features-container {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    text-align: center
+}
+
+.album-container {
+    width: 100%;
+    display: inline-block;
+    padding-left: 209px;
+    padding-right: 209px;
+}
+
+.col-md-4.col-sm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h5 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+/* Album Gallery */
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.image {
+    padding: 32px;
+}
+
+/* Footer Social Icons */
+.container-footer {
+    background-color: rgb(43, 149, 253);
+    padding-left: 55px;
+    padding-right: 70px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-top: 38px;
+}
+
+.box-social {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+#social-footer {
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+}
+
+.footer-brand {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+/* END OVERRIDES */
